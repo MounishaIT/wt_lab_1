@@ -1,0 +1,88 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+<style>
+.div1 {
+  height:fit-content;
+  width: 40%;
+  border: 3px outset rgb(50, 41, 46);
+  background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDMTER_OBRHkm4SDxntUcWbjJ56IyHKEQTjw&usqp=CAU');
+  
+  background-size:auto;
+  text-align: left;
+  margin: auto;
+  padding: 10px;
+}
+body{
+background-image: url('');
+background-repeat: no-repeat;
+background-size: auto;
+height: 100%;
+width: 100%;
+}
+</style>
+</head>
+<form>
+<div class="div1">
+<fieldset>
+<legend><b>RESERVE YOUR TABLE</legend>
+<fieldset>
+<legend>Your Details</legend>
+  <label for="fname">First name:</label>
+<input type="text" id="fname" placeholder="Enter first name"name="fname"><br><br>
+<label for="lname">Last name:</label>
+<input type="text" id="lname" placeholder="Enter last name"name="fname"><br><br>
+
+        <label for="Reservation date">Reservation date:</label>
+       <input type="date" id="Reservation date"name="Reservation date"><br><br>
+<form action="/action_page.php">
+  <label for="appt">Select a time:</label>
+  <input type="time" id="appt" name="appt">
+</form>
+<br>
+<br>
+<label>Number of Guests</label>
+<select ="please select">
+<option ="1">1</option>
+<option ="2">2</option>
+<option ="3">3</option>
+<option ="4">4</option>
+<option ="5">5</option>
+<option ="6">6</option>
+<option ="7">7</option>
+<option ="8">8</option>
+<option ="9">9</option>
+<option ="10+"10+</option>
+</select>
+<br>
+<br>
+
+
+<label for ="email">Email:</label>
+<input type="text" id="email" placeholder="Enter email id"name="email"><br><br>
+<label for="phone number">Phone number:</label>
+<input type="text"value="+91"size="1"disabled>
+<input type="tel" placeholder="123-456-7890" name="phone number"><br><br>
+<label for="Special notes">Special notes :</label>
+<textarea name="message" rows="3" cols="20" placeholder="Enter here"></textarea><br><br>
+</fieldset><br>
+
+        <button type="button" onclick="alert('YOUR TABLE IS SUCCESSFULLY RESERVED!')">RESERVE</button></div>
+
+
+
+<br>
+<br>
+</fieldset>
+</form>
+</body>
+</html>
